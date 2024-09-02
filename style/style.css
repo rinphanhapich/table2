@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 10vh;  
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+ul li{
+    padding: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+ul li a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* background-color: aqua; */
+}
+.main-contanner{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vh;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    width: 30%;
+    margin: 0 10px;
+    height: 35vh;
+    margin-left: 18px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+} 
+.full-card{
+    width: 93.5%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+caption{
+    font-size: 50px;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background: rgb(139, 174, 237);
+}
+
+tbody tr:hover {
+    background: rgb(230, 179, 179);
+ }
+ td:nth-child(1),th:nth-child(1){
+    background-color: rgb(34, 135, 250);
+ }
+ td:nth-child(2),th:nth-child(2){
+    background-color: rgb(26, 128, 206);
+ }
+ td:nth-child(3),th:nth-child(3){
+    background-color: rgb(25, 89, 145);
+ }
+ td:nth-child(4),th:nth-child(4){
+    background-color: rgb(0, 129, 189);
+ }
+
